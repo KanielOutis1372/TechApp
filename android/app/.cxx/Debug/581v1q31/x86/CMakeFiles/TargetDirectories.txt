@@ -1,0 +1,2 @@
+E:/TechApp/MyTechApp/TechApp/android/app/.cxx/Debug/581v1q31/x86/CMakeFiles/edit_cache.dir
+E:/TechApp/MyTechApp/TechApp/android/app/.cxx/Debug/581v1q31/x86/CMakeFiles/rebuild_cache.dir

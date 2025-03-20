@@ -16,4 +16,9 @@ class MyDefinition {
   static final Color? TEXT_BUTTON_COLOR = Colors.grey[100];
 
   static const double PRIMARY_FONT_SIZE = 18; // text button color
+  static const double SUB_FONT_SIZE = 14; // text sub
+
+  static const double FONT_SIZE_ICON = 30; // text button color
+
+  static const double PADDING_HORI = 16; // padding layout
 }

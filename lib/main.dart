@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:myapp/pages/client/splash.dart';
 import 'package:myapp/routes/app_routes.dart';
 
 void main() {
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: AppRoutes.SIGN_IN_PAGE,
+      defaultTransition: Transition.rightToLeftWithFade,
+      home: const SplashPage(),
+      initialRoute: AppRoutes.SPLASH,
       getPages: AppRoutes.pages,
     );
   }
